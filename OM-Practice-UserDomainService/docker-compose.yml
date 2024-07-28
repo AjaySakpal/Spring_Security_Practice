@@ -1,0 +1,9 @@
+version: '3'
+services:
+  om-practice-userdomainservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image:  om-practice-userdomainservice:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
